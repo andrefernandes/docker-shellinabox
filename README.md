@@ -16,12 +16,14 @@ is "mysecret"). Tha container start script (startshell.sh) looks for
 a GID environment variable that should contain the "docker" gid from
 the host (again, look in "runshell.sh" where this gid is fetched).
 
-A variable SIAPORT on the host can be used to change ShellInABox host
+An environment variable SIAPORT can be used to change ShellInABox host
 port (default is 4200).
+
+An environment variable USERPWD can be used to change the "user" password.
 
 So, in short:
 
-* runshell.sh: script sample for starting the container in a host
+* runshell.sh: script sample for starting the ShellInABox container in a host
 * startshell.sh: container's starting script, as in Dockerfile (I dislike entrypoints).
 
 
