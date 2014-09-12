@@ -9,8 +9,8 @@ else
   echo $USERPWD | passwd user --stdin
 fi
 # Este comando sempre entra como user (nao tem login)
-#shellinaboxd --no-beep -t --service "/:user:users:/home/user:/bin/bash"
+shellinaboxd --no-beep -t --service "/:user:users:/home/user:/bin/bash"
 
 # Este tem login
-shellinaboxd --no-beep -t -s "/:LOGIN"
+#shellinaboxd --no-beep -t -s "/:LOGIN"
 
