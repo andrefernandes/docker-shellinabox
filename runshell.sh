@@ -8,5 +8,6 @@ docker run --name sia -p $SIAPORT:4200 --rm -t -i \
     -v /usr/bin/docker:/usr/bin/docker \
     -e GID=$GID \
     -e USERPWD=$USERPWD \
+    -e VIRTUAL_HOST=shell.localdomain \
     andrefernandes/docker-shellinabox:latest
 
