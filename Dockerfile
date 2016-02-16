@@ -22,6 +22,7 @@ EXPOSE 4200
 WORKDIR /tmp
 
 ADD startshell.sh /opt/startshell.sh
+ADD black-on-white.css /usr/share/shellinabox/black-on-white.css
 
 CMD /opt/startshell.sh
 
