@@ -12,7 +12,7 @@ its host.
 The shell script "runshell.sh" serves as an example of how to do it.
 
 This image provides a container with a "user" user (default password
-is "mysecret"). Tha container start script (startshell.sh) looks for
+is "mysecret"). The container start script (startshell.sh) looks for
 a GID environment variable that should contain the "docker" gid from
 the host (again, look in "runshell.sh" where this gid is fetched).
 
