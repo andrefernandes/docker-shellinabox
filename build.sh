@@ -1,1 +1,1 @@
-docker build -t sherl0cks/docker-shellinabox .
+docker build -t andrefernandes/docker-shellinabox .
